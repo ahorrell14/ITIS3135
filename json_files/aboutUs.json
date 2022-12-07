@@ -1,0 +1,16 @@
+{"contributors":[
+  {
+    "first_name": "Autumn",
+    "position": "Creator",
+    "image": "IMAGES/Autumn.jpg",
+    "bio": "My favorite thing about music is the varieties. I mostly listen to music I don't know because I can get bored of listening to the same thing consistently. I believe it's fun discovering new artists and having a wide variety of music.",
+    "fav_genre": "Indie"
+  },
+  {
+    "first_name": "Jaren",
+    "position": "Visionary",
+    "image": "IMAGES/Jaren.jpeg",
+    "bio": "Music has always been a passion of mine. When I was younger, I learned about the music genre EDM and it changed my view on music. I mostly favour the house genre of EDM but I enjoy all others. This passion is what inspired the idea of this website. While EDM is my favorite genre, I like branching out to other types also. Having a website that can show the current top songs makes it easier for me to stay in the loop for all genres.",
+    "fav_genre": "EDM"
+  }
+]}

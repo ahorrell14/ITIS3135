@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Genres</title>
+    <!-- link css and javascript -->
+    <link rel="stylesheet" type="text/css" href="assignment2.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="genres.js"></script>
+</head>
+<!-- assign body to information class to move list to the right -->
+<body>
+<header>
+    <!--Navigation-->
+    <h1 id="title">Genres</h1>
+    <nav id="navigation">
+        <a href="index.html">Home</a>
+        <!-- set genres as the active tab-->
+        <a id="active" href="genres.html">Genres</a>
+        <a href="topTracks.html">Top Tracks</a>
+        <a href="personalFav.html">Personal Favorites</a>
+        <a href="podcasts.html">Podcasts</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="newsLetter.html">Join Our Newsletter</a>
+    </nav>
+</header>
+<main>
+    <!--add image to page-->
+    <img id="image" src="IMAGES/records.jpg" alt="Records">
+    <!--add text over image-->
+    <h1 id="textOver"> Genres of Music </h1>
+    <h2>Music is broken down into multiple genres of music in order to organize and group certain types together. Although there
+        are many different genres, we have chosen 6 of the most popular ones to be showcased.</h2>
+    <!-- begin accordion-->
+    <div id="accordion">
+        <!--first tab-->
+        <h2>Pop</h2>
+        <!--first content -->
+        <div>
+            <h3>This genre of music focuses on a catchy melody and good rhythm. Most songs within this genre are known by
+            the general population due to their memorable beat and lyrics.</h3>
+            <div>
+                <div class="center">
+                    <!-- ordered list -->
+                    <ol id="elementStyle">
+                        <li>Easy On Me - Adele</li>
+                        <li>Shivers - Ed Sheeran</li>
+                        <li>Stay - The Kid LAROI, Justin Bieber</li>
+                        <li>My Universe - Coldplay, BTS</li>
+                        <li>Bad Habits - Ed Sheeran</li>
+                        <li>good 4 u - Olivia Rodrigo</li>
+                        <li>Happier Than Ever - Billie Eilish</li>
+                        <li>Take My Breath - The Weeknd</li>
+                        <li>Kiss Me More - Doja Cat, SZA</li>
+                        <li>Levitating - Dua Lipa, DaBaby</li>
+                        <li>traitor - Olivia Rodigo</li>
+                        <li>Save Your Tears - The Weeknd, Ariana Grande</li>
+                        <li>Peaches - Justin Bieber, Daniel Caesar</li>
+                        <li>Leave The Door Open - Bruno Mars, Anderson .Paak</li>
+                        <li>Love Again - Dua Lipa</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!-- second tab -->
+        <h2>Country</h2>
+        <!-- second content -->
+        <div>
+            <h3>Most songs within this genre revolve between the topics of beer, tractors, women, or work. Their topics speak
+                to the hard work that southerners pride themselves on. Most of these songs also involve many instruments such as
+                the guitar or the banjo.</h3>
+            <div>
+                <div class="center">
+                    <!-- ordered list -->
+                    <ol>
+                        <li>'Til You Can't - Cody Johnson</li>
+                        <li>I Was On a Boat That Day - Old Dominion</li>
+                        <li>Wishful Drinkin - Ingrid Andress, Sam Hunt</li>
+                        <li>If I Didn't Love You - Jason Aldean, Carrie Underwood</li>
+                        <li>Just About Over You - Priscilla Block</li>
+                        <li>Cold Beer Calling My Name - Jameson Rogers, Luke Combs</li>
+                        <li>Sunday Morning Kinda Saturday Night - Ashley Cooke</li>
+                        <li>One Mississippi - Kane Brown</li>
+                        <li>Best Thing Since Backroads - Jake Owen</li>
+                        <li>Coulda Loved You Longer - Adam Doleac</li>
+                        <li>Woman You Got - Maddie & Tae</li>
+                        <li>Same Boat - Zac Brown Band</li>
+                        <li>Truth About You - Mitchell Tenpenny</li>
+                        <li>Wilder Days - Morgan Wade</li>
+                        <li>Buy Dirt - Jordan Davis, Luke Bryan</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!-- third tab -->
+        <h2>Rock</h2>
+        <!-- third content -->
+            <div>
+                <h3>When looking back on past music, rock songs are the most named ones. Bands such as The Red Hot Chili Peppers
+                    or Nirvana have made an impact on music today. Songs withing this genre focus on a variety of topics and don't focus
+                    on one specific rhythm.</h3>
+                <div>
+                    <div class="center">
+                        <!-- ordered list -->
+                        <ol>
+                            <li>Hold The Line - Tom Morello, grandson</li>
+                            <li>Kill The Noise - Papa Roach</li>
+                            <li>Freaks - Surf Curse</li>
+                            <li>DiE4u - Bring Me The Horizon</li>
+                            <li>Never Gonna Learn - Asking Alexandria</li>
+                            <li>Swerve - Papa Roach, FEVER 333, Sueco</li>
+                            <li>Paranoid - Palaye Royale</li>
+                            <li>Jump - POORSTACY</li>
+                            <li>Paralyzed - Sueco</li>
+                            <li>Futureproof - Nothing But Thieves</li>
+                            <li>Don't Back Down - Mammoth WVH</li>
+                            <li>EARTHRISE - STARSET</li>
+                            <li>Rain - grandson, Jessie Reyez</li>
+                            <li>Dad Vibes - Limp Bizkit</li>
+                            <li>Light My Love - Greta Van Fleet</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        <!-- fourth tab -->
+        <h2>Hip Hop</h2>
+        <!-- fourth content -->
+            <div>
+                <h3>While hip hop music is best known for its fast rapping sequences or club hits, these aren't the sole components
+                    of this genre of music. Hip hop also involves turning poetry into music by collaborating rhyming words with trap beats.</h3>
+                <div>
+                    <div class="center">
+                        <!-- ordered list -->
+                        <ol>
+                            <li>Too Easy - Gunna, Future</li>
+                            <li>Pissed Me Off - Lil Durk</li>
+                            <li>Knife Talk - Drake, 21 Savage, Travis Scott</li>
+                            <li>Flocky Flocky - Don Toliver, Travis Scott</li>
+                            <li>Ambition For Cash - Key Glock</li>
+                            <li>Lonely - DaBaby, Lil Wayne</li>
+                            <li>Fair Trade - Drake, Travis Scott</li>
+                            <li>Sharing Locations - Meek Mill, Lil Durk, Lil Baby</li>
+                            <li>Rich MF - Trippie Redd, Polo G, Lil Durk</li>
+                            <li>Your Heart - Joyner Lucas, J. Cole</li>
+                            <li>Way 2 Sexy - Drake, Future, Young Thug</li>
+                            <li>Mind of Melvin - YNW Melly, Lil Uzi Vert</li>
+                            <li>Da Truth - Key Glock</li>
+                            <li>Girls Want Girls - Drake, Lil Baby</li>
+                            <li>2055 - Sleepy Hallow</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        <!-- fifth tab-->
+        <h2>Electronic</h2>
+        <!-- fifth content-->
+            <div>
+                <h3>Music within this genre focuses on using sounds or beats primarily in a song. Common types of electronic music is
+                    house EDM or dubstep.</h3>
+                <div>
+                    <div class="center">
+                        <!-- ordered list -->
+                        <ol>
+                            <li>Do It To It - ACRAZE, Cherish</li>
+                            <li>Bring A Friend - Hood Rich</li>
+                            <li>Drinkee - Sofi Tukker, Vintage Culture</li>
+                            <li>Microdosing - UNIIQU3</li>
+                            <li>I Go - Peggy Gou</li>
+                            <li>True Love to the Grave - Maya Jane Coles, Claudia Kane</li>
+                            <li>Just Feels Tight - FISHER</li>
+                            <li>Love Reigns - Mall Grab</li>
+                            <li>Still Sleepless - D.O.D, Carla Monroe</li>
+                            <li>Welcome To The People - Jaded</li>
+                            <li>Observer Effect - Disclosure</li>
+                            <li>Love You Like That - Cloonee</li>
+                            <li>You Know What I Got - Maceo Plex, Liberty City</li>
+                            <li>Into The Groove - Tita Lau</li>
+                            <li>In My Arms - Disclosure</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        <!-- sixth tab -->
+        <h2>Indie</h2>
+        <!-- sixth content -->
+            <div>
+                <h3>This genre of music moves towards more dimensional lyrics and soothing beats. Lounging or lounging activities
+                    are encouraged while listening to this genre of music.</h3>
+                <div>
+                    <div class="center">
+                        <!-- ordered list -->
+                        <ol>
+                            <li>Stargazing - The Neighborhood</li>
+                            <li>The King - Sarah Kinsley</li>
+                            <li>Parking Lot - Genevieve Stokes</li>
+                            <li>nothing else i could do - ella jane</li>
+                            <li>not okay - chloe moriondo, mazie</li>
+                            <li>god of the sunsets - SEB</li>
+                            <li>NO WAY! - Clubhouse</li>
+                            <li>Hotel - Claire Rosinkranz</li>
+                            <li>Nostalgia - Tae</li>
+                            <li>Lost in Translation - The Neighborhood</li>
+                            <li>Strawberry Lemonade - Neptune</li>
+                            <li>Silk Chiffon - MUNA, Phoebe Bridgers</li>
+                            <li>newbury park - Lexi Jayde</li>
+                            <li>Adult - Christian Leave</li>
+                            <li>Sofia - Clairo</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+</main>
+    <footer>
+        <br/>
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <br/>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </footer>
+</body>
+
+</html>

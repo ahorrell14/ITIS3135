@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Favorites</title>
+    <link rel="stylesheet" type="text/css" href="assignment2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="personalFav.js"></script>
+</head>
+<body>
+<header>
+    <h1 id="title">Personal Favorites</h1>
+    <nav id="navigation">
+        <a href="index.html">Homepage</a>
+        <a href="genres.html">Genres</a>
+        <a href="topTracks.html">Top Tracks</a>
+        <!-- set personal fav as active tab -->
+        <a id="active" href="personalFav.html">Personal Favorites</a>
+        <a href="podcasts.html">Podcasts</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="newsLetter.html">Join Our Newsletter</a>
+    </nav>
+</header>
+<main>
+    <!-- add image -->
+    <img id="image" src="IMAGES/guitar2.jpg" alt="Guitar">
+    <h1 id="textOver">Our Current Favorite Songs Divided by Genre</h1>
+    <!-- begin bxSlider-->
+    <div class="slider">
+        <!-- first slide -->
+        <div>
+            <!-- organized list -->
+            <ol>
+                <li>Unfold - Porter Robinson</li>
+                <li>Serotonin - girl in red</li>
+                <li>SIR BAUDELAIRE - Tyler The Creator, DJ Drama</li>
+                <li>tolerate it - Taylor Swift</li>
+                <li>don't forget to breath today - San Holo</li>
+                <li>Hallucinogenics - Matt Maeson</li>
+                <li>Outta My Head - Khalid, John Mayer</li>
+                <li>Life Of Sin Pt. 3 - MitiS</li>
+                <li>Kiss Me More - Doja Cat, SZA</li>
+                <li>When You Were Young - The Killers</li>
+            </ol>
+        </div>
+        <!-- second slide -->
+        <div>
+            <!-- organized list start at 11 -->
+            <ol start="11">
+                <li>Body And Mind - girl in red</li>
+                <li>Content - Bo Burnham</li>
+                <li>Shut The World Out - Kasbo, Frida Sundemo</li>
+                <li>Devil In A New Dress - Kanye West, Rick Ross</li>
+                <li>TEMPTATION - Joey Bada$$</li>
+                <li>Pleaser - Wallows</li>
+                <li>Streets - Doja Cat</li>
+                <li>Sensitive - Serena Isioma</li>
+                <li>Hell N Back - Baker</li>
+                <li>Blue World - Mac Miller</li>
+            </ol>
+        </div>
+    </div>
+</main>
+    <footer>
+        <br/>
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <br/>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </footer>
+</body>
+</html>

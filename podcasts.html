@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" id="podHTML">
+<head>
+    <meta charset="UTF-8">
+    <title>Podcasts</title>
+    <link rel="stylesheet" type="text/css" href="assignment2.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="Podcast.js"></script>
+</head>
+<body>
+<header>
+    <!--Navigation-->
+    <h1 id="title">Podcasts</h1>
+    <nav id="navigation">
+        <!-- make home the active page -->
+        <a href="index.html">Home</a>
+        <a href="genres.html">Genres</a>
+        <a href="topTracks.html">Top Tracks</a>
+        <a href="personalFav.html">Personal Favorites</a>
+        <!--make About Us the active tab-->
+        <a id="active" href="podcasts.html">Podcasts</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="newsLetter.html">Join Our Newsletter</a>
+    </nav>
+</header>
+<main>
+    <!--add image to page-->
+    <img id="image" src="IMAGES/drums.jpg" alt="Green Drums">
+    <!--add text over image-->
+    <h1 id="textOver">Podcasts We Love</h1>
+    <!--div that will load podcast information-->
+    <div id="show_podcasts">
+        <img src="IMAGES/PFF_Fantasy.png" alt = "fantasy football">
+        <h1>PFF Fantasy Football</h1>
+        <h2>Hosted by Ian Hartitz</h2>
+        <h3>Host Ian Hartitz breaks down all of the latest NFL news and
+        gives you a unique analysis that is necessary to help you dominate
+        your season of fantasy football.</h3>
+    </div>
+</main>
+<!--nav for user to select which podcast they want to view-->
+<aside>
+    <h1 id="podcasts">Our Top Podcasts</h1>
+    <nav id="nav_list">
+        <ul>
+            <li><a href="#" title="PFF_Fantasy_Football">PFF Fantasy Football</a></li>
+            <li><a href="#" title="Locked_On_Fantasy_Basketball">Locked On Fantasy Basketball</a></li>
+            <li><a href="#" title="Morbid_A_True_Crime_Podcast">Morbid A True Crime Podcast</a></li>
+        </ul>
+    </nav>
+</aside>
+<footer>
+    <br/>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <br/>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>

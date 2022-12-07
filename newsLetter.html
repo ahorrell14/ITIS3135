@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Newsletter</title>
+    <link rel="stylesheet" type="text/css" href="assignment2.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="newsletter.js"></script>
+</head>
+<body>
+<header>
+    <!--navigation-->
+    <h1 id="title">Newsletter</h1>
+    <nav id="navigation">
+        <a href="index.html">Home</a>
+        <a href="genres.html">Genres</a>
+        <a href="topTracks.html">Top Tracks</a>
+        <a href="personalFav.html">Personal Favorites</a>
+        <a href="podcasts.html">Podcasts</a>
+        <a href="aboutUs.html">About Us</a>
+        <!-- set active tab as newsletter -->
+        <a id="active" href="newsLetter.html">Join Our Newsletter</a>
+    </nav>
+</header>
+<main>
+    <!--instructions-->
+    <h1>Join Our Newsletter!</h1>
+    <h2>Please enter your information in below to join our weekly newsletter to stay updated on music within society!</h2>
+    <!-- begin input form -->
+    <div id="form">
+        <form action="responseForm.html" method="get"
+              id="newsForm" name="newsForm">
+            <!-- text fields -->
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <span>*</span><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+            <span>*</span><br>
+            <!-- email fields -->
+            <label for="email1">Email Address:</label>
+            <input type="text" id="email1" name="email">
+            <span>*</span><br>
+            <label for="email2">Re-enter Email Address:</label>
+            <input type="text" id="email2">
+            <span>*</span><br>
+            <!-- radio buttons for gender-->
+            <p>Please select the gender you most reside with:</p>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="nonBin" name="gender" value="Non-Binary">
+            <label for="nonBin">Non-Binary</label>
+            <input type="radio" id="preferNo" name="gender" value="Prefer not to say">
+            <label for="preferNo">Prefer not to say</label>
+            <span></span><br>
+            <!-- drop down list -->
+            <p>What is your favorite genre from the dropdown list?</p>
+            <label for="genreChoice"></label>
+            <select name="genreChoice" id="genreChoice">
+                <option value="pop.html">Pop</option>
+                <option value="country.html">Country</option>
+                <option value="rock.html">Rock</option>
+                <option value="hipHop.html">Hip Hop</option>
+                <option value="electronic.html">Electronic</option>
+                <option value="indie.html">Indie</option>
+            </select>
+            <span></span><br>
+            <!-- submit button -->
+            <label>&nbsp;</label>
+            <input type="submit" id="join_list" value="Submit request!"/>
+        </form>
+    </div>
+</main>
+    <footer>
+        <br/>
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <br/>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </footer>
+</body>
+</html>
